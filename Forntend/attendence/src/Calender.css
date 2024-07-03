@@ -1,0 +1,66 @@
+/* src/CalendarComponent.css */
+.present{
+    background: green;
+  }
+  .absent {
+    background: red;
+  }
+  .leavesTaken{
+     background: orange; 
+  }
+.holiday{
+  background:#948979;
+}
+
+.calendar-container {
+  height: 42.5vh; /* Set your desired height */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Prevent overflow */
+
+}
+
+.react-calendar {
+  flex: 1; /* Make the calendar take up all available space in the container */
+  width: fit-content;
+ color: darkslateblue;
+  border: 1px solid #a0a096;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 0px;
+  box-sizing: border-box; /* Ensure padding is included in the height calculation */
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  background: transparent;
+}
+
+.react-calendar__viewContainer {
+  flex: 1; /* Ensure the view container takes up all available space */
+}
+
+.react-calendar__month-view {
+  flex: 1; /* Ensure the month view takes up all available space */
+  display: flex;
+  flex-direction: column;
+}
+
+.react-calendar__month-view__days {
+  flex: 1; /* Ensure the days take up all available space */
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+}
+
+.react-calendar__tile {
+  height: auto; /* Adjust the height of each tile */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 14%; /* Each tile takes 1/7th of the width (approximately) */
+  max-width: 14%; /* Ensure tiles don't overflow */
+  max-height: 36px;
+  box-sizing: border-box; /* Include padding in height and width calculations */
+  overflow: hidden; /* Prevent overflow */
+}

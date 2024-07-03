@@ -1,0 +1,764 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.LogIn{
+  width: 100vw;
+  height: 100vh;
+  background: url('./Assets/Back7.jpg');
+  overflow: hidden;
+}
+.LogIn form{
+
+  height: 32vw;
+  width: 30vw;
+  background-color: #F7F7F7;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px  #6F4E37;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  margin-top: 50px;
+}
+.LogIn h1{
+ text-align: center;
+ position: relative;
+ top: 5vw;
+  text-shadow: 2px 2px 2px white;
+ 
+}
+.LogIn p{
+ 
+  font-size: 1.5vw;
+  text-align: center;
+  padding-top: 1vw;
+}
+.LogIn input{
+  height: 3vw;
+  border-radius: 15px;
+  position: relative;
+  border: none;
+  text-align: center;
+  
+ 
+  width:15vw;
+ 
+ 
+}
+.LogIn form  button{
+  position: relative;
+  height: 3vw;
+  width: 6vw;
+  border-radius: 10px;
+  background-color:#EF9C66 ;
+  top: 5vw;
+  left: -2vw;
+}
+.LogIn img{
+  height:5vw;
+  width: 5vw;
+  border-radius: 100vw;
+  position: relative;
+  top: -1vw;
+  left: 93vw;
+  
+}
+.LogIn .h_btn{
+  height: 3vw;
+  width: 6vw;
+  border-radius: 15px;
+  position: absolute;
+  left: 85vw;
+  background-color: #DAC0A3;
+ 
+  
+}
+
+.Dashbord{
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url(./Assets/Back2.jpg); */
+  background: linear-gradient(to bottom, #FEDCD2, #FFF5F2);
+}
+.Dashbord img{
+  width: 20vw;
+  height: 20vw;
+  border-radius: 100vw;
+  position: relative;
+  top: 10vw;
+}
+.dash-img {
+  display: flex;
+  justify-content: space-around;
+
+}
+.dash-btn{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 12vw;
+}
+.dash-btn button{
+  height: 5vw;
+  width: 12vw;
+  border-radius: 20px;
+}
+.Dashbord .header{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 3vw;
+}
+.company{
+  text-shadow: 3px 3px 3px wheat;
+  color: rgb(141, 13, 192);
+}
+.Hr_Layout{
+  width: 100vw;
+  height: 100vh;
+ /* background-image: url('./Assets/Back5.png'); */
+ background: linear-gradient(to bottom, #F9CBC6, #FFE3DF);
+}
+.Emp_Layout{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #FCE8E3, #FFF1EE);
+}
+.Elayout{
+  display: flex;
+  justify-content: space-around;  
+  position: relative;
+  top: 3vw;
+  
+}
+.Emp_Layout button{
+  height: 5vw;
+  width: 15vw;
+  border-radius: 20px;
+}
+.policies-btn{
+position: relative;
+top: 10vw;
+left: 5vw;
+}
+.Holidays-btn{
+  position: relative;
+top: 15vw;
+left: 5vw;
+}
+.In-btn{
+  position: relative;
+  top: 22vw;
+  left: 20vw;
+}
+.Out-btn{
+  position: relative;
+  top: 17vw;
+  left: 48vw;
+}
+.Leave-btn{
+  position: relative;
+  top: 12vw;
+  left: 75vw;
+}
+.cal{
+  
+  width: 40vw;
+  height: 20vw;
+
+  position: relative;
+  left: 30vw;
+  top: -16vw;
+}
+.captch{
+  background-color: white;
+  width: 15vw;
+  height: 3vw;
+  border-radius: 15px;
+  position: relative;
+  margin-top: 2vw;
+  margin-left: 7.5vw;
+ 
+}
+.re-icon i{
+  position: relative;
+  left: 6vw;
+  top: -3vw;
+  font-size: 1.5vw;
+  color:#a10546;
+}
+.cap-input{
+  position: relative;
+  left: 8vw;
+
+}
+.cal-data{
+  height: 20vw;
+  width: 13vw;
+  position: relative;
+  box-shadow: 10px 10px 10px ; 
+  border-radius: 10px;
+  top: -36vw;
+  left: 80vw;
+  padding-top: 5px;
+}
+.Hr_Layout{
+  text-align: center;
+  position: relative;
+  padding-top: 5vw;
+}
+.Emp_list{
+  height: 35vw;
+  width: 35vw;
+  position: relative;
+  border-radius: 10px;
+  left: 5vw;
+  top: 2vw;
+  /* background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%); */
+  
+  box-shadow: 5px 0px 5px 5px #6196A6;
+
+}
+.Emp_list h2{
+  position: relative;
+  top: 1vw;
+  
+}
+.Emp_data{
+  height: 25vw;
+  width: 25vw;
+  background-color: #FF9090;
+  box-shadow: 5px 5px 5px;
+  position: relative;
+  top: 4vw;
+  left: 5vw;
+
+  overflow-y: scroll;
+  overflow-x: scroll;
+  scrollbar-width: none;
+ border-radius: 10px;
+ 
+  
+
+}
+.Emp_Table{
+  height: 25vw;
+  overflow-y: scroll;
+}
+.Emp_feautre{
+  position: absolute;
+  top: 9vw;
+  left: 60vw;
+  display: block;
+  
+}
+
+.Emp_feautre button {
+  height: 6vw;
+  width: 20vw;
+  border-radius: 20px;
+  background-color: #beb9b9;
+  display: block;
+  box-shadow: 10px 10px 5px rgb(77, 68, 68);
+  margin-top: 4vw;
+}
+.Hr_Aprove{
+  height: 100vh;
+  width: 100vw;
+  /* background-image: url('./Assets/Back4.jpg'); */
+  background: linear-gradient(to bottom, #F8C5C0, #FFDED9);
+  
+}
+.Emp_list2{
+ 
+  height: 35vw;
+  width: 30vw;
+  position: relative;
+  top: 7vw;
+  left: 10vw;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 5px #31363F;
+ 
+
+}
+.Emp_list2 div{
+  overflow-y: scroll;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.Emp_list2 button{
+  height: 3vw;
+  width: 6vw;
+  background: transparent;
+  border-radius: 10px;
+  position: absolute;
+  left: 80vw;
+  top: -5vw;
+}
+.Hr_features{
+  position: relative;
+  margin-top: -30vw;
+  left: 60vw;
+  border-radius: 20px;
+  height: 35vw;
+  width: 20vw;
+  box-shadow: 10px 10px 10px 5px;
+}
+.Hr_features button{
+  background: #888888;
+  height: 5vw;
+  width: 15vw;
+  position: relative;
+  left: 2vw;
+  margin-top: 3vw;
+  border-radius: 2vw;
+  
+ 
+
+}
+.Emp_list2 h1{
+  text-align: center;
+  padding-top: 2vw;
+  overflow-y: scroll;
+scrollbar-width: none;
+}
+.Hr_LeaveAprove{
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, #FAD2CB, #FFE8E4);
+  /* overflow: hidden; */
+}
+.Hr_LeaveAprove h1{
+  text-align: center;
+  position: relative;
+  top: 4vw;
+  
+}
+
+
+.Leave_reson{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 90vw;
+  height: 30vw;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 10px #4e4c4c;
+ 
+
+  overflow: scroll;
+  scrollbar-width: none;
+
+}
+.Leave_reson table{
+ width: 100%;
+ margin-top: 1vw;
+  position:relative;
+  top:10%;
+  left: 50%;
+  transform: translate(-50%,-10%);
+ 
+ 
+}
+.Leave_reson table td{
+  
+  text-align: center;
+  padding: 1vw;
+  
+}
+/* .Leave_reson table td button{
+ width: 5vw;
+ height: 2vw;
+ background: #FFB38E;
+ border-radius: 10px;
+ 
+
+ 
+} */
+
+.Hr_LeaveAprove button{
+  background-color: #AAAAAA;
+  height: 5vw;
+  width: 15vw;
+  position: relative;
+  left: 65vw;
+  margin-top: 38vw;
+  margin-left: 1vw;
+  border-radius: 10px;
+}
+.Emp_Leave{
+height: 100vh;
+width: 100vw;
+/* background-image: url('./Assets/Back6.jpg');
+background-size: cover; */
+background: linear-gradient(to bottom, #FBD7D0, #FFEBE8);
+overflow: hidden;
+}
+.Emp_Leave h1{
+  text-align: center;
+  position: relative;
+  top: 5vw;
+}
+.Leave_Balance{
+  display: flex;
+  justify-content:space-evenly;
+  position: relative;
+  top: 8vw;
+  left:8vw;
+  width: 90vw;
+  height: 5vw;
+  padding-top: 1vw;
+}
+.Leave_Date{
+  position: relative;
+  left: 10vw;
+  width: 80vw;
+  height: 17vw;
+  /* background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%); */
+  box-shadow: 10px 10px 10px ;
+  top: 09vw;
+  border-radius: 3vw;
+}
+.Leave_Dropdown{
+  position: relative;
+  margin-top: 10vw;
+ margin-left: 10vw;
+  width: 80vw;
+  height: 10vw;
+  /* background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
+  border-radius: 3vw;
+  box-shadow: 10px 10px 10px ;
+}
+.Leave_date1{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 2vw;
+}
+.Leave_date2{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 6vw;
+}
+
+.Leave_Dropdown h3{
+  position: relative;
+  top: 3vw;
+  left: 16vw;
+}
+.Leave_Dropdown select{
+  position: relative;
+  top: 3vw;
+  left: 16vw;
+  width: 7vw;
+}
+.Leave_Dropdown h2{
+  position: relative;
+  top: 1vw;
+  left: 30vw;
+  input{
+    border-radius: 10px;
+    border: none;
+    width: 25vw;
+    height: 3vw;
+    text-align: center;
+    background-color: #d1cdcd;
+    color:black;
+  }
+}
+.Emp_Data{
+  height: 100vh;
+  width: 100vw;
+  /* background-image: url('./Assets/Back3.jpg'); */
+  background: linear-gradient(to bottom, #F7BFBA, #FFD9D4);
+}
+.Emp_Data h1{
+  text-align: center;
+  padding-top: 5vw;
+}
+
+.Emp_Data button{
+  position: relative;
+  left: 92vw;
+  top: -5vw;
+}
+table,tr,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table{
+  width: 90vw;
+  position: relative;
+  left: 5vw;
+  text-align: center;
+}
+.grade{
+ 
+  border: 1px solid black;
+  width: fit-content;
+  position:absolute;
+  top: 37vw;
+  left: 85vw;
+}
+
+.edisplay{
+ padding-top: 2vw;
+  color: red;
+  
+  text-align: center;
+ 
+}
+.hdata{
+  color: red;
+  position: absolute;
+  left: 19vw;
+  top: 15vw;
+  font-size: 2vw;
+}
+.span_data{
+  /* color: #E7D4B5; */
+  color: rgb(117, 67, 67);
+}
+.FullName{
+  margin-top: 1vw;
+  
+}
+.listName{
+  text-align: center;
+  margin-top: 1vw;
+}
+#savebtn{
+  height: 3vw;
+  width: 6vw;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  position: relative;
+  left: 30vw;
+  top: 3vw;
+}
+.checkbox{
+  position: absolute;
+  left: 27vw;
+  width:  1.3vw;
+  height: 1.5vw;
+}
+.visible{
+  display: inline;
+}
+.visible1{
+  display: block;
+}
+.hidden{
+  display: none;
+}
+.E_Create{
+  width: 100vw;
+  height: 100vh;
+ 
+    background: linear-gradient(to bottom, #F6B9B4, #FFD4CF);
+}
+.C_btn button{
+  height: 4vw;
+  width: 8vw;
+  border-radius: 10px;
+  position: relative;
+  left: 2vw;
+  top: 2vw;
+ margin-left: 2VW;
+}
+.C_data{
+ background-color: wheat;
+  height: 25vw;
+  width:25vw;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px ;
+  position: relative;
+  left: 35vw;
+  top: 8vw;
+}
+.C_data h2{
+  text-align: center;
+ padding-top: 2vw;
+}
+.C_data input{
+position: relative;
+left: 2vw;
+width: 15vw;
+height: 2.5vw;
+border-radius: 10px;
+outline: none;
+
+}
+.C_data label{
+  position: relative;
+  left: 3vw;
+}
+.C_data button{
+  position: relative;
+  width: 6vw;
+  height: 3vw;
+  border-radius: 10px;
+  left: -5vw;
+  top: 4vw;
+  background-color: #59c173;
+}
+.radio{
+  position: absolute;
+  left: 27vw;
+ width:  1.3vw;
+  height: 1.5vw;
+}
+.l_Id{
+  width: 20vw;
+  height: 10vw;
+  background-color: #eee4d9;
+  border-radius: 10px;
+  position: relative;
+  left: 40vw;
+  top: 10vw;
+}
+.l_Id label{
+  position: relative;
+  top: 2vw;
+  left: 2vw;
+}
+.l_Id input{
+  width: 15vw;
+  height: 3vw;
+  border-radius: 10px;
+}
+.l_Id button{
+  width: 6vw;
+  height: 2.5vw;
+  position: relative;
+  border-radius: 10px;
+  left: 7vw;
+  top: 3vw;
+  background-color: #516657;
+}
+.calender{
+  position:relative;
+  z-index: 10;
+ 
+}
+.custom-calendar {
+  width: 10px;
+  font-size: 14px; 
+  position: absolute;
+  z-index: 1;
+}
+
+.Emp_Leave .react-calendar {
+  border: none;
+}
+
+.Emp_Leave .react-calendar__tile {
+  height: 20px;
+  width: 20px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#apply{
+  height: 3vw;
+  width: 8vw;
+  position: relative;
+  left: 80vw;
+  top: -6vw;
+  border-radius: 10px;
+  background-color: wheat;
+}
+#ap_Check{
+  position: relative;
+  width: 1.5vw;
+  height: 1.5vw;
+  padding: 4vw;
+ 
+}
+.calendar-container {
+  max-width: 600px; /* Example: Make width adjustable */
+  margin: auto;
+}
+
+.content{
+  margin: 20px;
+}
+.companyPolicy{
+  width: 100vw;
+  height:fit-content;
+ 
+    background: linear-gradient(to bottom, #F6B9B4, #FFD4CF);
+}
+.cal-data h3 {
+  white-space: nowrap; /* Prevents wrapping */
+  display: inline; /* Ensures it stays inline */
+  position: relative;
+  left: 2vw;
+}
+.cal-data h3 #c1,#c2,#c3,#c4{
+  /* Add your styles here */
+  background-color:green;
+  margin-top: 1.5vw;
+  height: 1.5vw;
+  width: 1.5vw;
+  
+  border-radius: 5px;
+}
+#c2{
+  background-color: red;
+}
+#c3{
+  background-color: orange;
+}
+#c4{
+  background-color: #948979;
+}
+#I1{
+  font-size: 30px;
+  position: relative;
+  left: 35px;
+}
+.Emp_Data button{
+  background: transparent;
+  border: none;
+}
+.holidays{
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+  scrollbar-width: none;
+  background: linear-gradient(to bottom, #F8C5C0, #FFDED9);
+}
+.holidays h1{
+  text-align: center;
+  position: relative;
+  top: 3vw;
+}
+.holidays-container{
+  position: relative;
+  top: 5vw;
+
+}
+.red-list {
+  background-color: red; /* Light Red */
+}
+.grade-d {
+  background-color: #6b4040; /* Slightly Darker Red */
+}
+.grade-c {
+  background-color: #f3ae69; /* Light Orange */
+}
+.grade-b {
+  background-color: #eeee4c; /* Light Yellow */
+}
+.grade-a {
+  background-color: #ccff99; /* Light Green */
+}
+.grade-s {
+  background-color: #16e716; /* Green */
+}
