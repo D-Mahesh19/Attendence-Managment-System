@@ -116,8 +116,12 @@ App.get('/Fullget',(req,res)=>{
       .then(() => {
         return usermodel.findOneAndUpdate(
           { Email },
-          { $inc: { Total_Working_days: 1 } }
+          { $inc: { Total_Working_days: 1 } },
+            { new: true }
         );
+      })
+          .then(updatedUser => {
+        res.send( updatedUser);
       })
       .catch(error => {
         res.status(500).send({ error: error.message });
